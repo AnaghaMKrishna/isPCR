@@ -25,7 +25,7 @@ sorted_good_hits = [
 	['515F', 'NZ_CP028827.1', '89.474', '19', '2', '0', '1', '19', '2945438', '2945420', '0.005', '32.4', '19']
 ]
 
-paired_hits = step_two(
+paired_hits = step_two.step_two(
 	sorted_hits=sorted_good_hits,
 	max_amplicon_size=1000
 )
