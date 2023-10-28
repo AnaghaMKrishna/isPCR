@@ -7,5 +7,5 @@ sorted_good_hits = step_one.step_one(
 	assembly_file="data/Vibrio_cholerae_N16961.fna"
 )
 
-# for hit in sorted_good_hits:
-# 	print(hit)
+for hit in sorted_good_hits:
+	print(hit)
