@@ -12,4 +12,4 @@ def step_one(primer_file: str, assembly_file: str) -> list[list[str]]:
                                            input=blast_output.stdout
                                            #executable="/bin/bash"
                                            )
-    print(filtered_blast_output.stdout)
+    print(filtered_blast_output)
