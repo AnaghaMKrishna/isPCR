@@ -15,7 +15,7 @@ hit_pairs = [
 	(['806R', 'NZ_CP028827.1', '85.000', '20', '3', '0', '1', '20', '2945147', '2945166', '0.45', '26.1', '20'], ['515F', 'NZ_CP028827.1', '89.474', '19', '2', '0', '1', '19', '2945438', '2945420', '0.005', '32.4', '19']),
 ]
 
-amplicons = step_three(
+amplicons = step_three.step_three(
 	hit_pairs=hit_pairs,
 	assembly_file="data/Vibrio_cholerae_N16961.fna"
 )
